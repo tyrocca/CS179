@@ -1,0 +1,1 @@
+I used React, ReactDnd, Create-react-app, and a stack overflow post for generating unique ids. See the README.md for more details.

@@ -1,0 +1,91 @@
+/* Set the background to a repeatable image */
+body {
+    background-image: url("./images/corkboard.jpg");
+}
+
+.corkboard {
+    margin: 20px 15px;
+}
+
+/* Styling For the Header */
+#corkboard-header {
+    background-color: black;
+    font-size: -webkit-xxx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+/* Styling for the add button */
+#add-note {
+    float: right;
+    padding: 10px;
+    font-size: medium;
+    border-radius: 4px;
+    margin-top: 7px;
+}
+#add-note:hover {
+    background-color: #c1c1c1;
+    cursor: pointer;
+}
+
+/* Note container styling */
+.note {
+    height: 250px;
+    width: 300px;
+    border: 1px black solid;
+    box-shadow: 1px 1px 11px 0px black;
+    position: absolute;
+    cursor: move;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 0;
+}
+
+/* bring to front on hover */
+.note:hover {
+    z-index: 100;
+    border: 3px black solid
+}
+
+/* Delete note styline */
+.delete-note {
+    float: right;
+    border: 1px white solid;
+    background-color: red;
+    padding: 0px 4px;
+    border-radius: 4px;
+    color: white;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+.delete-note:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+/* styling of the content within each note */
+.note-content {
+    margin: 10px 15px
+}
+
+/* postit colors */
+.yellow {
+    background-color: #ffffa5;
+}
+
+.orange {
+    background-color: #f96507;
+}
+
+.green {
+    background-color: #24a00d;
+}
+
+.blue {
+    background-color: #229ccb;
+}
+
+.teal {
+    background-color: #37e6fa;
+}

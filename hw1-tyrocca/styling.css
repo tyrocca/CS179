@@ -1,0 +1,76 @@
+/* Set the background to a repeatable image */
+body {
+    background-image: url("corkboard.jpg");
+}
+
+.corkboard {
+    margin: 20px 15px;
+}
+
+/* Note container styling */
+.note {
+    height: 250px;
+    width: 300px;
+    border: 1px black solid;
+    box-shadow: 1px 1px 11px 0px black;
+	position: fixed;
+    z-index: 0;
+}
+
+/* bring to front on hover */
+.note:hover {
+    z-index: 100;
+    border: 3px black solid
+}
+
+/* styling of the content within each note */
+.note-content {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 10px 15px
+}
+
+/* postit colors */
+.yellow {
+    background-color: #ffffa5;
+}
+
+.orange {
+    background-color: #f96507;
+}
+
+.green {
+    background-color: #24a00d;
+}
+
+.blue {
+    background-color: #229ccb;
+}
+
+.teal {
+    background-color: #37e6fa;
+}
+
+/* Per Note Positions */
+
+#second-note {
+	top: 210px;
+	left: 130px;
+	z-index: 3;
+}
+
+#third-note {
+    right: 95px;
+    top: 70px;
+}
+
+#fourth-note {
+    right: 500px;
+    top: 145px;
+    z-index: 2;
+}
+
+#fifth-note {
+    right: 150px;
+    top: 400px;
+    z-index: 5;
+}
