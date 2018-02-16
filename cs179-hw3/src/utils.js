@@ -32,7 +32,7 @@ export const randColor = () => {
 };
 
 export const defaultNote = [{
-  id: makeId(),
+  id: 'default-note-id-1234',
   color: randColor(),
   text: 'Here is an example note. Click the X to delete it. Click and hold to drag it around',
 }];
