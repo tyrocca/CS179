@@ -60,6 +60,8 @@ class App extends React.Component {
     // On delete remove the note from the active notes[
     const notes = this.state.notes.filter(({ id }) => id !== deleteId);
     this.setState({ notes });
+    // remove from local storage
+    window.localStorage.removeItem(deleteId);
     window.localStorage.setItem('notes', JSON.stringify(notes));
   }
 
