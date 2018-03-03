@@ -1,4 +1,10 @@
-// File for useful functions
+// File for useful functions and constants
+
+// *********************
+// * Weather Functions *
+// *********************
+
+export const weatherAPIKey = '03c1db743f26859a850f105f27d1302e';
 
 export function makeId() {
   // always start with a letter (for DOM friendlyness)

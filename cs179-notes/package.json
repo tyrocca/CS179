@@ -9,6 +9,7 @@
     "react-dom": "^16.2.0",
     "react-draggable": "^3.0.5",
     "react-scripts": "1.1.0",
+    "sweetalert2": "^7.12.3",
     "tern": "^0.21.0"
   },
   "scripts": {
